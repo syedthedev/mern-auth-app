@@ -1,6 +1,6 @@
 # 🔐 MERN Auth Email Verification App
 
-A complete full-stack **authentication system** built using the **MERN stack** (MongoDB, Express, React, Node.js) with secure login, email OTP verification, and password reset flow — perfect for production-ready projects.
+A complete full-stack **authentication system** built using the **MERN Stack** (MongoDB, Express, React, Node.js) with secure login, email OTP verification, and password reset flow — perfect for production-ready projects.
 
 ---
 
