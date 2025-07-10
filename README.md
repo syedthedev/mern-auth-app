@@ -31,24 +31,27 @@ A complete full-stack **authentication system** built using the **MERN stack** (
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+### Home Page
 ![Home](Client/public/Home.PNG)
 
-### 🔐 Reset Password
+### Reset Password
 ![Reset Password](Client/public/Forgot-Password.PNG)
 
-### 🔑 Login Page
+### Login Page
 ![Login](Client/public/Login.PNG)
 
-### ✅ Email Verification
+### Email Verification
 ![Email Verify](Client/public/Email-Verify.PNG)
 
 ---
 
+
 ## 📦 Getting Started
 
-# 1. Clont The Repo
+### 1️⃣ Clone the Repository
+
 ```bash
+# 1. Clont The Repo
 git clone https://github.com/syedthedev/mern-auth-app.git
 cd mern-auth-app
 
