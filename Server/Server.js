@@ -20,7 +20,7 @@ mongoose.connect(`${process.env.MONGODB_URI}/mern-auth`)
         .catch(() => console.log('Not Connected'));
 
 // Origin
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['http://localhost:5173','https://mern-auth-app-frontend-two.vercel.app'];
 
 // Body-Parser 
 app.use(express.json());
