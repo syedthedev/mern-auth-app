@@ -1,0 +1,66 @@
+# 🔐 MERN Auth Email Verification App
+
+A complete full-stack **authentication system** built using the **MERN Stack** (MongoDB, Express, React, Node.js) with secure login, email OTP verification, and password reset flow — perfect for production-ready projects.
+
+---
+
+## 🚀 Features
+
+- ✅ Secure JWT Auth (stored in HttpOnly Cookies)
+- 📩 Email OTP Verification via Nodemailer
+- 🔐 Password Reset with Email OTP
+- 📤 SMTP Integration via **Brevo (Sendinblue) API**
+- 👤 User Profile with Avatar and Welcome Header
+- 🌐 Fully Responsive UI (Mobile + Desktop)
+- 🍪 Cookie-based Login Flow
+- 📄 HTML Email Templates with Cloud Support
+- 🔔 Toast Notifications with `react-toastify`
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech        | Description                        |
+|-------------|------------------------------------|
+| **Frontend**| React, Tailwind CSS, Axios, Vite   |
+| **Backend** | Node.js, Express, Nodemailer       |
+| **Database**| MongoDB Atlas (Mongoose)           |
+| **Auth**    | JWT + HTTPOnly Cookies + OTP Email |
+| **Mailer**  | Nodemailer (SMTP via [Brevo](https://www.brevo.com/)) + HTML Templates |
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](Client/public/Home.PNG)
+
+### Reset Password
+![Reset Password](Client/public/Forgot-Password.PNG)
+
+### Login Page
+![Login](Client/public/Login.PNG)
+
+### Email Verification
+![Email Verify](Client/public/Email-Verify.PNG)
+
+---
+
+## 📦 Getting Started
+
+### 1️⃣ Clone the Repository
+
+```bash
+# 1. Clone The Repo
+git clone https://github.com/syedthedev/mern-auth-app.git
+cd mern-auth-app
+
+# 2. Backend
+cd Server
+npm install
+node Server.js
+
+# 3. Frontend
+cd Client
+npm install
+npm run dev
